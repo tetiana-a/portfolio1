@@ -69,50 +69,6 @@ html {
 }
 /* зад */
 
-/*mp3*/
-
-
-.audio-player {
-    display: flex;
-    align-items: center;
-    background-image: url('/17.jpg');
-    opacity: 0.5;
-    background-size: cover;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
-}
-
-button {
-    width: 30px;
-    height: 30px;
-    background: url('/14.png') no-repeat center center;
-    background-size: cover;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-button.play {
-    background-image: url('/14.png');
-}
-
-button.pause {
-    background-image: url('/15.png');
-}
-
-input[type="range"] {
-    flex-grow: 1;
-    margin: 0 10px;
-}
-
-span {
-    color: #635a5a;
-    font-family: Arial, sans-serif;
-}
-/*mp3*/
 
 
 html {
@@ -250,6 +206,52 @@ a:hover {
 .hamburger-icon span:first-child {
   transform: none;
 }
+
+
+/*mp3*/
+
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    background-image: url('/17.jpg');
+    opacity: 0.5;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    background: url('/14.png') no-repeat center center;
+    background-size: cover;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button.play {
+    background-image: url('/14.png');
+}
+
+button.pause {
+    background-image: url('/15.png');
+}
+
+input[type="range"] {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+span {
+    color: #635a5a;
+    font-family: Arial, sans-serif;
+}
+/*mp3*/
 
 /* SECTIONS */
 
