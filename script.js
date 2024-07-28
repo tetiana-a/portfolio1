@@ -5,8 +5,6 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-
-
 document.addEventListener('DOMContentLoaded', function () {
   const audio = document.getElementById('audio');
   const playPauseButton = document.getElementById('play-pause');
@@ -41,5 +39,9 @@ document.addEventListener('DOMContentLoaded', function () {
       return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   }
 });
+
+
+
+
 
 
