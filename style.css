@@ -214,7 +214,7 @@ a:hover {
 .audio-player {
     display: flex;
     align-items: center;
-    background-image: url('/17.jpg');
+    background-image: url('17.jpg');
     opacity: 0.5;
     background-size: cover;
     padding: 5px;
@@ -226,7 +226,7 @@ a:hover {
 button {
     width: 30px;
     height: 30px;
-    background: url('/14.png') no-repeat center center;
+    background: url('14.png') no-repeat center center;
     background-size: cover;
     border: none;
     outline: none;
@@ -235,11 +235,11 @@ button {
 }
 
 button.play {
-    background-image: url('/14.png');
+    background-image: url('14.png');
 }
 
 button.pause {
-    background-image: url('/15.png');
+    background-image: url('15.png');
 }
 
 input[type="range"] {
